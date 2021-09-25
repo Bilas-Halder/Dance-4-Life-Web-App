@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Hritik Roshan",
+        "role": "Lead Actor",
+        "age": 47,
+        "lastMovie": "Super 30",
+        "salary": 5000000,
+        "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Hritik-Roshan-450x450.jpg",
+        "key": "1x1"
+    },
+    {
+        "name": "Tiger Shroff",
+        "role": "Lead Actor",
+        "age": 31,
+        "lastMovie": "Munna Michael",
+        "salary": 1500000,
+        "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Tiger-Shroff-373x450.png",
+        "key": "1x2"
+    },
+    {
+        "name": "Allu Arjun",
+        "role": "Lead Actor",
+        "age": 38,
+        "lastMovie": "Pushpa",
+        "salary": 3000000,
+        "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Allu-Arjun-450x450.jpg",
+        "key": "1x3"
+    },
+    {
+        "name": "Prabhu Deva",
+        "role": "Director",
+        "age": 48,
+        "lastMovie": "Dabangg 3",
+        "salary": 3500000,
+        "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Prabhu-Deva-e1586714339161-416x450.jpg",
+        "key": "2x1"
+    },
+    {
+        "name": "Remo D’Souza",
+        "role": "Director",
+        "age": 47,
+        "lastMovie": "Street Dancer 3D",
+        "salary": 3000000,
+        "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Remo-D%E2%80%99Souza-450x450.jpg",
+        "key": "2x2"
+    },
+    {
+        "name": "Farah Khan",
+        "role": "Director",
+        "age": 56,
+        "lastMovie": "Mrs. Serial Killer",
+        "salary": 2500000,
+        "imgURL": "https://stat1.bollywoodhungama.in/wp-content/uploads/2016/09/Farah-Khan-2.jpg",
+        "key": "2x3"
+    },
+    {
+        "name": "Katrina Kaif",
+        "role": "Lead Actress",
+        "age": 38,
+        "lastMovie": "Bharat",
+        "salary": 2500000,
+        "imgURL": "https://wikibio.in/wp-content/uploads/2018/07/Katrina-Kaif.jpg",
+        "key": "3x1"
+    },
+    {
+        "name": "Nora Fatehi",
+        "role": "Lead Actress",
+        "age": 29,
+        "lastMovie": "Street Dancer 3D",
+        "salary": 1800000,
+        "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Nora-Fatehi-e1586626864659-437x450.jpg",
+        "key": "3x2"
+    },
+    {
+        "name": "Janhvi Kapoor",
+        "role": "Lead Actress",
+        "age": 24,
+        "lastMovie": "Roohi",
+        "salary": 1200000,
+        "imgURL": "https://pbs.twimg.com/profile_images/1410075039362281475/yV8h-0NO_400x400.jpg",
+        "key": "3x3"
+    },
+    {
+        "name": "Dharmesh Yelande",
+        "role": "Dancer, Actor",
+        "age": 37,
+        "lastMovie": "Street Dancer 3D",
+        "salary": 1000000,
+        "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Dharmesh-Yelande-e1586714725882-381x450.jpg",
+        "key": "4x1"
+    },
+    {
+        "name": "Lauren Gottlieb",
+        "role": "Dancer, Actress",
+        "age": 33,
+        "lastMovie": "Ghoomketu",
+        "salary": 1200000,
+        "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Lauren-Gottlieb-e1586631015860-480x450.jpg",
+        "key": "4x2"
+    },
+    {
+        "name": "Raghav Juyal",
+        "role": "Dancer, Actor",
+        "age": 30,
+        "lastMovie": "Street Dancer 3D",
+        "salary": 1000000,
+        "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Raghav-Juyal-450x450.jpg",
+        "key": "4x3"
+    }
+]
