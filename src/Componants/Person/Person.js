@@ -3,11 +3,8 @@ import "./Person.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
-const Person = ({ person }) => {
+const Person = ({ person, addToCastHandler }) => {
     const { name, role, age, salary, lastMovie, imgURL } = person;
-    console.log(name);
-    console.log(role, age, salary);
-
 
     return (
         <div className="person-details">
@@ -45,7 +42,7 @@ const Person = ({ person }) => {
                         </tbody>
                     </table>
                     <div className="btn-div d-flex justify-content-center pt-4">
-                        <button className="add-to-cast-btn"><FontAwesomeIcon className='shopping-cart' icon={faShoppingCart} /> Add to Cast</button>
+                        <button onClick={() => addToCastHandler(person)} className="add-to-cast-btn"><FontAwesomeIcon className='shopping-cart' icon={faShoppingCart} /> Add to Cast</button>
                     </div>
                 </div>
             </div>

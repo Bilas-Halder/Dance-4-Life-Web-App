@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Person from '../Person/Person';
 import './Casts.css';
 
-const Casts = () => {
+const Casts = ({ selectedCast, setSelectedCast }) => {
     const [casts, setCasts] = useState([]);
 
     useEffect(() => {
@@ -11,10 +11,19 @@ const Casts = () => {
             .then(data => setCasts(data));
     }, []);
 
+    const addToCastHandler = (person) => {
+        if (!selectedCast.includes(person.key)) {
+            localStorage.setItem(person.key, 1);
+            const newSelectedCast = [...selectedCast, person.key];
+            setSelectedCast(newSelectedCast);
+        }
+
+    };
+
     return (
         <div className="casts-details">
             {
-                casts.map(person => <Person key={person.key} person={person}></Person>)
+                casts.map(person => <Person key={person.key} person={person} addToCastHandler={addToCastHandler}></Person>)
             }
         </div>
     );
