@@ -1,5 +1,5 @@
 .cast{
-    height: 65px;
+    height: 70px;
     border-radius: 7px;
     width: 85%;
     margin: 20px auto ;
@@ -8,20 +8,21 @@
     justify-content: space-between;
     padding-right: 10px;
 }
+
 .cast-img-div{
-    height: 65px;
-    width: 70px;
+    height: 70px;
+    width: 85px;
     border-radius: 7px;
     overflow: hidden;
-    background-color: white;
 }
 .cast-img-div img{
-    width: 70px;
+    width: 85px;
 }
+
 .cast h5{
     font-size: 18px;
-    margin: 23px 10px;
-}
+} 
+
 .cross-btn{
     background-color: #80808000;
     color: #d20000;

@@ -11,7 +11,7 @@ const SelectedStar = ({ person, crossClickHandler }) => {
             <div className="cast-img-div">
                 <img src={imgURL} alt="" />
             </div>
-            <div>
+            <div className="px-1 text-center d-flex align-items-center">
                 <h5>{name}</h5>
             </div>
             <div>

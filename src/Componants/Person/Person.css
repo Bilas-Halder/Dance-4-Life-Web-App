@@ -5,9 +5,10 @@
 }
 .person-details:hover{
     filter: drop-shadow(2px 2px 4px #797979);
-    /* transform: translate(-5px,-10px); */
     transform: scale(1.03,1.03);
 }
+
+/* 1 extra img container div for round up properly */
 .person-img-div-1{
     z-index: 2;
     padding: 4px;
@@ -24,8 +25,9 @@
 }
 .person-img-div-2 img{
     width: 100%;
-    /* border: 2px solid turquoise; */
 }
+
+/* text part of card */
 .details{
     background-color: #282c34;
     border: 2px solid turquoise;
@@ -45,6 +47,8 @@ table tr td:first-child{
 table td{
     padding: 0 10px 5px 10px;
 }
+
+/* btn for selecting as cast */
 .add-to-cast-btn{
     margin: auto;
     color: #282c34;

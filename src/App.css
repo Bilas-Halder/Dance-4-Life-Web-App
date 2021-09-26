@@ -8,6 +8,7 @@ body{
   padding: 0px;
 }
 .app{
+  /* setting the apps default bg color */
   background-color: #282c34;
   margin-bottom: 0
 }

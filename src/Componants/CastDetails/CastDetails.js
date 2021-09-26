@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import Person from '../Person/Person';
-import './Casts.css';
+import './CastDetails.css';
 
-const Casts = ({ selectedCast, setSelectedCast }) => {
+const CastDetails = ({ selectedCast, setSelectedCast }) => {
     const [casts, setCasts] = useState([]);
 
     useEffect(() => {
@@ -11,8 +11,10 @@ const Casts = ({ selectedCast, setSelectedCast }) => {
             .then(data => setCasts(data));
     }, []);
 
+    // click handler for child component
     const addToCastHandler = (person) => {
         if (!selectedCast.includes(person.key)) {
+            // setting in local storage if it's already not exist
             localStorage.setItem(person.key, 1);
             const newSelectedCast = [...selectedCast, person.key];
             setSelectedCast(newSelectedCast);
@@ -29,4 +31,4 @@ const Casts = ({ selectedCast, setSelectedCast }) => {
     );
 };
 
-export default Casts;
+export default CastDetails;
