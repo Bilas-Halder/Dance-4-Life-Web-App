@@ -1,7 +1,7 @@
 import './App.css';
 import Casts from './Componants/Casts/Casts';
 import Header from './Componants/Header/Header';
-import SelectedCast from './Componants/SelectedCasts/SelectedCast';
+import SelectedCasts from './Componants/SelectedCasts/SelectedCasts';
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
       <div className="main-body-container">
         <div className="main-body">
           <Casts></Casts>
-          <SelectedCast></SelectedCast>
+          <SelectedCasts></SelectedCasts>
         </div>
       </div>
     </div>

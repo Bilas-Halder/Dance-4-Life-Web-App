@@ -1,22 +1,69 @@
 .person-details{
     position: relative;
     width: 100%;
+    transition: all 0.3s ease-in;
 }
-.person-img-div{
+.person-details:hover{
+    filter: drop-shadow(2px 2px 4px #797979);
+    /* transform: translate(-5px,-10px); */
+    transform: scale(1.03,1.03);
+}
+.person-img-div-1{
+    z-index: 2;
+    padding: 4px;
+    border: 2px solid turquoise;
+    background-color: #282c34;
+    border-radius: 50%;
+
+}
+.person-img-div-2{
     width: 110px;
     height: 110px;
     overflow: hidden;
     border-radius: 50%;
 }
-.person-img-div img{
+.person-img-div-2 img{
     width: 100%;
-    border-radius: 50%;
     /* border: 2px solid turquoise; */
 }
+.details{
+    background-color: #282c34;
+    border: 2px solid turquoise;
+    border-radius: 7px;
+    transform: translate(0px,-65px);
+    z-index: 3;
+}
+.table-container{
+    padding-top:40px ;
+}
 table{
-    font-size: 16px;
+    font-size: 16.5px;
+}
+table tr td:first-child{
+    font-weight: 600;
 }
 table td{
-    padding-left:10px ;
-    padding-right:10px ;
+    padding: 0 10px 5px 10px;
+}
+.add-to-cast-btn{
+    margin: auto;
+    color: #282c34;
+    font-weight: 600;
+    background-color: #61dafb;
+    padding: 3px 8px;
+    border-radius: 7px;
+    border: 2px solid #61dafb;
+    transition: all 0.3s ease-in;
+    outline: none;
+}
+.add-to-cast-btn:hover{
+    color: #61dafb;
+    border: 2px solid #61dafb;
+    background-color: #282c34;
+    
+    filter: drop-shadow(2px 2px 3px #5c5c5c);
+    transform: translate(-2px,-2px);
+}
+.add-to-cast-btn:active{
+    transform: translate(3px,3px);
 }

@@ -1,0 +1,42 @@
+.cast{
+    height: 65px;
+    border-radius: 7px;
+    width: 85%;
+    margin: 15px auto ;
+    background-color: #61dafb;
+    color: #282c34;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.cast-img-div{
+    height: 65px;
+    width: 70px;
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: white;
+}
+.cast-img-div img{
+    width: 70px;
+}
+.cast h5{
+    font-size: 18px;
+    margin: 23px 10px;
+}
+.cross-btn{
+    background-color: #80808000;
+    color: #d20000;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.5rem;
+    margin: 15px 0px;
+    transition: 0.2s ease-in;
+}
+.cross-btn:hover{
+    transform: scale(110%,110%);
+    background-color: #80808000;
+    color: #d20000;
+}
+.cross-btn:active{
+    transform: translate(3px,3px);
+}

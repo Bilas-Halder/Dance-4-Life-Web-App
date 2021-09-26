@@ -1,9 +1,15 @@
+html{
+  margin: 0px;
+  padding: 0px;
+  background-color: #282c34;
+}
 body{
   margin: 0px;
   padding: 0px;
 }
 .app{
   background-color: #282c34;
+  margin-bottom: 0
 }
 .main-body-container{
   display: flex;
@@ -14,10 +20,8 @@ body{
 }
 .main-body{
   display: flex;
-  justify-content: space-between;
   width: 85%;
   border-radius: 7px;
   color: #61dafb;
   box-shadow: 0px 0px 7px #bbbbbb;
-  padding: 20px;
 }

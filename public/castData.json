@@ -39,7 +39,7 @@
         "name": "Remo D’Souza",
         "role": "Director",
         "age": 47,
-        "lastMovie": "Street Dancer 3D",
+        "lastMovie": "Street Dancer",
         "salary": 3000000,
         "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Remo-D%E2%80%99Souza-450x450.jpg",
         "key": "2x2"
@@ -66,7 +66,7 @@
         "name": "Nora Fatehi",
         "role": "Lead Actress",
         "age": 29,
-        "lastMovie": "Street Dancer 3D",
+        "lastMovie": "Street Dancer",
         "salary": 1800000,
         "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Nora-Fatehi-e1586626864659-437x450.jpg",
         "key": "3x2"
@@ -81,10 +81,10 @@
         "key": "3x3"
     },
     {
-        "name": "Dharmesh Yelande",
+        "name": "Dharmesh",
         "role": "Dancer, Actor",
         "age": 37,
-        "lastMovie": "Street Dancer 3D",
+        "lastMovie": "Street Dancer",
         "salary": 1000000,
         "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Dharmesh-Yelande-e1586714725882-381x450.jpg",
         "key": "4x1"
@@ -102,7 +102,7 @@
         "name": "Raghav Juyal",
         "role": "Dancer, Actor",
         "age": 30,
-        "lastMovie": "Street Dancer 3D",
+        "lastMovie": "Street Dancer",
         "salary": 1000000,
         "imgURL": "https://topranked.in/wp-content/uploads/2020/04/Raghav-Juyal-450x450.jpg",
         "key": "4x3"
